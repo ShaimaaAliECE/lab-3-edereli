@@ -9,7 +9,7 @@ namespace Lab3App
     abstract class Collectable : Displayable
     {
         public string Description { get; set; }
-        public CollectionBoard board { get; set; }
+        public CollectionBoard Board { get; set; }
         public Collectable (string description)
         {
             Description = description;

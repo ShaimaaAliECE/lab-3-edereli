@@ -17,8 +17,8 @@ namespace Lab3App
         public override void AddMe(List<Collectable> collectables)
         {
             base.AddMe(collectables);
-            board.UpdateTotalValue(Value);
-            Console.WriteLine("Total Value is updated to: " + board.TotalValue);
+            Board.UpdateTotalValue(Value);
+            Console.WriteLine("Total Value is updated to: " + Board.TotalValue);
         }
         public override void Display()
         {

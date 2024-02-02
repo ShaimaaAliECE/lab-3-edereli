@@ -19,6 +19,5 @@ namespace Lab3App
         {
             TotalValue += value;
         }
-
     }
 }
